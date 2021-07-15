@@ -1,20 +1,6 @@
 {
-    "web-1": {
-        "component-diagnostics": {
-            "service": {
-                "name": "web-1",
-                "version": "v1.0.0",
-                "status": "UP"
-            }
-        }
-    },
-    "web-2": {
-        "component-diagnostics": {
-            "service": {
-                "name": "web-2",
-                "version": "v1.0.0",
-                "status": "DOWN"
-            }
-        }
-    }
+    "posts": [
+        {"service": {"name": "web-1", "status": "UP"}},
+        {"service": {"name": "web-2", "status": "DOWN"}}
+    ]
 }
